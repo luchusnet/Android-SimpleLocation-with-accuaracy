@@ -1,4 +1,4 @@
-# Android-SimpleLocation
+# Android-SimpleLocation-with-accuracy
 
 Utility class for easy access to the device location on Android
 
