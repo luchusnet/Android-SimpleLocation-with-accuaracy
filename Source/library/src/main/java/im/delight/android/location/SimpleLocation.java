@@ -277,6 +277,20 @@ public class SimpleLocation {
 		return mRandom.nextInt((radius + 1) * 2) - radius;
 	}
 
+		/**
+	 * Returns the current position as a Point instance
+	 *
+	 * @return the current location (if any) or `null`
+	 */
+	public Location getLocation() {
+		if (mPosition == null) {
+			return null;
+		}
+		else {
+			return mPosition;
+		}
+	}
+	
 	/**
 	 * Returns the current position as a Point instance
 	 *
